@@ -1,0 +1,21 @@
+.card-style div p:hover{
+    color: #95A7EF;
+}
+
+.card-style div div .icons:hover{
+    color: #EE6352 !important;
+}
+
+.icons{
+    color:rgba(248, 248, 248, .5) !important;
+}
+
+
+.language-tags{
+    color:rgba(	151, 168, 237,0.8);
+    background-color:rgba(	151, 168, 237, 0.1);
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.85rem;
+}
+

@@ -1,0 +1,28 @@
+.nav-text:hover{
+    cursor: pointer;
+    color:#95A7EF;
+}
+.nav-text{
+    color: #F5F5F5;
+}
+
+.nav-number{
+    color: #95A7EF;
+    font-size: 14px;
+}
+
+.nav-burger-color{
+    background-color:white ;
+}
+
+.drawer-style{
+    background-color: #252524 !important;
+}
+
+.drawer-item{
+    font-size: 1.4rem;
+}
+
+.drawer-item:hover{
+    color:rgba(	151, 168, 237,1);
+}

@@ -1,0 +1,17 @@
+.icon-bar {
+    position: fixed;
+    bottom: 0;
+  }
+
+.icon{
+    color:rgba(248, 248, 248, .5) ;
+}
+
+.icon:hover {
+    color: #EE6352 ;
+}
+
+.horizontal-line{
+    border-left: 1px solid rgba(248, 248, 248, 0.7);
+    height: 150px;
+}

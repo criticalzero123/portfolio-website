@@ -1,0 +1,36 @@
+.code-text{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight: 500 !important;
+    color: #EE6352;
+    font-size: 1.3rem;
+}
+
+.hi-p{
+    color:#95A7EF;   
+}
+
+.name-text{
+    color: "#B8B8B8";
+    font-size: 4rem;
+}
+
+
+.type-animation{
+    font-size: 2rem;
+    color: #F5F5F5;
+}
+
+
+
+.description { 
+    color:#B8B8B8;
+    font-size:1rem;
+}
+
+
+
+.header{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    font-size: 2rem;
+} 

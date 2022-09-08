@@ -1,0 +1,10 @@
+.button-showmore{
+    border-color: #97A8ED;
+    cursor: pointer;
+    color: #97A8ED;
+    border-radius: 4px;
+}
+
+.button-showmore:hover{
+    background-color: rgba(	151, 168, 237,0.15);
+}
