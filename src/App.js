@@ -13,8 +13,8 @@ function App() {
       <NavigationBar />
       <div className="container mx-auto px-4">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/archive" element={<Archive />} />
+          <Route path="/portfolio-website/" element={<Home />} />
+          <Route path="/portfolio-website/archive" element={<Archive />} />
         </Routes>
       </div>
       <SideIconBar />

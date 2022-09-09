@@ -30,6 +30,11 @@ const SideIconBar = () => {
       <FiMail
         size={20}
         className="mb-10 icon  hover:-translate-y-1 transition duration-300 cursor-pointer "
+        onClick={() =>
+          window.open(
+            "mailto:caramonte159@gmail.com?subject=HELLO&body=Hi%20James%20Dylan%20Caramonte"
+          )
+        }
       />
       <div className="horizontal-line ml-2"></div>
     </div>

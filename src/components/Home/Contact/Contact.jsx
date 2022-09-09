@@ -19,7 +19,16 @@ const Contact = () => {
         <p>{/* grid3 */}</p>
       </div>
       {/* TODO: fix the linkTo for the email, temporary for archive to avoid errors */}
-      <CustomButton marginTop={"mt-10"} text="Drop Message!" linkTo="archive" />
+      <CustomButton
+        marginTop={"mt-10"}
+        text="Drop Message!"
+        linkTo={""}
+        email={() =>
+          window.open(
+            "mailto:caramonte159@gmail.com?subject=HELLO&body=Hi%20James%20Dylan%20Caramonte"
+          )
+        }
+      />
     </div>
   );
 };

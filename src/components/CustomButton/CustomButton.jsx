@@ -4,14 +4,23 @@ import { Link } from "react-router-dom";
 
 import "./CustomButton.css";
 
-const CustomButton = ({ marginTop, text, linkTo }) => {
+const CustomButton = ({ marginTop, text, linkTo, email }) => {
   return (
     <div className={`${marginTop} flex justify-center`}>
-      <Link to={`/${linkTo}`}>
-        <div className="py-3 px-6 border button-showmore hover:duration-500 transition">
+      {linkTo != "" ? (
+        <Link to={`/${linkTo}`}>
+          <div className="py-3 px-6 border button-showmore hover:duration-500 transition">
+            {text}
+          </div>
+        </Link>
+      ) : (
+        <div
+          className="py-3 px-6 border button-showmore hover:duration-500 transition"
+          onClick={email}
+        >
           {text}
         </div>
-      </Link>
+      )}
     </div>
   );
 };
