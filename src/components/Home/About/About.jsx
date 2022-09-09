@@ -6,7 +6,10 @@ import jd from "../../../asset/asd.jpg";
 
 const About = () => {
   return (
-    <div className="grid sm:grid-cols-1 lg:grid-cols-2 h-screen" id="about">
+    <div
+      className="grid sm:grid-cols-1 lg:grid-cols-2 h-screen mb-32 sm:mb-18 lg:mb-0"
+      id="about"
+    >
       <div className="sm:pl-0 lg:pl-52">
         <p className="header mb-7">
           <span style={{ color: "#95A7EF" }}>#0</span> <span>About Me</span>

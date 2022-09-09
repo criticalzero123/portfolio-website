@@ -24,7 +24,7 @@ const Projects = () => {
 
   return (
     <div
-      className="lg:mx-28 sm:mx-10 lg:mb-28 sm:mb-10 xl:mx-52 xl:mb-52"
+      className="lg:mx-28 sm:mx-10 lg:mb-44 sm:mb-44 xl:mx-52 xl:mb-52"
       id="projects"
     >
       <div>

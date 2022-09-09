@@ -12,17 +12,19 @@ const HeaderHome = () => {
   ];
   return (
     <div className="h-screen" id="header">
-      <div className="xl:pt-64 xl:pl-40 lg:pt-52 lg:pl-28  pt-24">
+      <div className="md:pt-48 md:pl-6 xl:pt-64 xl:pl-40 lg:pt-52 lg:pl-28  pt-24">
         <p className="hi-p mb-3">
           <span className="code-text">{"<Hello />, "}</span>my name is
         </p>
-        <p className="name-text">James Dylan Caramonte</p>
+        <p className="text-5xl md:text-5xl lg:text-6xl xl:text-7xl name-text mb-5">
+          James Dylan Caramonte
+        </p>
         <TypeAnimation
           sequence={strings}
           speed={40}
           wrapper="h1"
           repeat={Infinity}
-          className="type-animation"
+          className="text-lg md:text-3xl type-animation"
         />
         <p className="description mt-10 sm:mt-5">
           I'm an aspiring student at{" "}
