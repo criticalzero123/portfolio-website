@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import axios from "axios";
 
-import { AiOutlineFolder } from "react-icons/ai";
-import { FiExternalLink } from "react-icons/fi";
+import { FiExternalLink, FiFolder } from "react-icons/fi";
 const ProjectCard = ({ project }) => {
   const [progLanguages, setProgLanuages] = useState({});
 
@@ -30,13 +29,13 @@ const ProjectCard = ({ project }) => {
       >
         <div className="mt-5">
           <div className="flex mb-5 items-center">
-            <AiOutlineFolder
-              className="mr-auto "
-              size={50}
+            <FiFolder
+              className="mr-auto stroke-1"
+              size={45}
               style={{ color: "#95A7EF" }}
             />
 
-            <FiExternalLink size={18} className="align icons" />
+            <FiExternalLink size={18} className="align icons " />
           </div>
           <p style={{ fontSize: "1.5rem" }}>{project.name}</p>
         </div>

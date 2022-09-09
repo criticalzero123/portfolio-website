@@ -26,13 +26,13 @@ const Home = () => {
       >
         <HeaderHome />
       </div>
-      <div data-aos="fade-right" data-aos-duration="1000">
+      <div data-aos="fade-up" data-aos-duration="1000">
         <About />
       </div>
       <div data-aos="fade-up" data-aos-duration="1000">
         <Projects />
       </div>
-      <div data-aos="fade-up-right" data-aos-duration="1000">
+      <div data-aos="fade-up" data-aos-duration="1000">
         <Contact />
       </div>
       <Footer />

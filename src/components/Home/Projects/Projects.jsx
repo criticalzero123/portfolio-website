@@ -37,7 +37,11 @@ const Projects = () => {
               return <ProjectCard project={rep} key={rep.id} />;
             })}
         </div>
-        <CustomButton marginTop={"mt-12"} text="Show More" linkTo="archive" />
+        <CustomButton
+          marginTop={"mt-12"}
+          text="Show More"
+          linkTo="portfolio-website/archive"
+        />
       </div>
     </div>
   );

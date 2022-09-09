@@ -3,7 +3,7 @@ import React from "react";
 const Archive = () => {
   return (
     <div>
-      <p>Archive</p>
+      <p>Project List Not yet implemented.</p>
     </div>
   );
 };
