@@ -4,7 +4,7 @@ import "./SplashScreen.css";
 
 const SplashScreen = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen overflow-hidden">
       <div>
         <svg
           width="347"
