@@ -26,7 +26,7 @@ function App() {
   ) : (
     <div>
       <NavigationBar />
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 scroll-smooth">
         <Routes>
           <Route path="/portfolio-website/" element={<Home />} />
           <Route path="/portfolio-website/archive" element={<Archive />} />

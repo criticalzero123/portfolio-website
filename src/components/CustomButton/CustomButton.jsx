@@ -4,9 +4,15 @@ import { Link } from "react-router-dom";
 
 import "./CustomButton.css";
 
-const CustomButton = ({ marginTop, text, linkTo, email }) => {
+const CustomButton = ({ marginTop, text, linkTo, email, hidden }) => {
   return (
-    <div className={`${marginTop} flex justify-center`}>
+    <div
+      className={
+        hidden
+          ? `${marginTop} flex justify-center hidden`
+          : `${marginTop} flex justify-center`
+      }
+    >
       {linkTo != "" ? (
         <Link to={`/${linkTo}`}>
           <div className="py-3 px-6 border button-showmore hover:duration-500 transition">

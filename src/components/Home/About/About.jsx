@@ -7,7 +7,7 @@ import jd from "../../../asset/asd.jpg";
 const About = () => {
   return (
     <div
-      className="grid sm:grid-cols-1 lg:grid-cols-2 h-screen mb-32 sm:mb-18 lg:mb-0"
+      className="grid sm:grid-cols-1 lg:grid-cols-2 h-screen mb-52 sm:mb-18 lg:mb-0"
       id="about"
     >
       <div className="sm:pl-0 lg:pl-52">

@@ -1,5 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import { FiFacebook, FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 
 import "./HeaderHome.css";
 
@@ -33,7 +34,43 @@ const HeaderHome = () => {
           to be a future software engineer. Currently, I'm focused on <br />
           building software system application and website application.
         </p>
+        <div className="flex lg:hidden block mt-16">
+          <FiFacebook
+            size={30}
+            className="icon hover:-translate-y-1 transition duration-300 cursor-pointer mr-10"
+            onClick={() =>
+              window.open("https://facebook.com/criticalzero0", "_blank")
+            }
+          />
+          <FiGithub
+            size={30}
+            className="icon hover:-translate-y-1 transition duration-300 cursor-pointer mr-10"
+            onClick={() =>
+              window.open("https://github.com/criticalzero123", "_blank")
+            }
+          />
+          <FiLinkedin
+            size={30}
+            className="icon hover:-translate-y-1 transition duration-300 cursor-pointer mr-10"
+            onClick={() =>
+              window.open(
+                "https://linkedin.com/in/jamesdylancaramonte",
+                "_blank"
+              )
+            }
+          />
+          <FiMail
+            size={30}
+            className="icon hover:-translate-y-1 transition duration-300 cursor-pointer mr-10"
+            onClick={() =>
+              window.open(
+                "mailto:caramonte159@gmail.com?subject=HELLO&body=Hi%20James%20Dylan%20Caramonte"
+              )
+            }
+          />
+        </div>
       </div>
+      <div></div>
     </div>
   );
 };
