@@ -8,7 +8,7 @@ const NavigationBar = () => {
   return (
     <div className="sticky top-0 z-10 shadow-xl">
       <div
-        className="flex flex-row my-5 container mx-auto p-3 items-center"
+        className="flex flex-row  container mx-auto p-3 items-center"
         style={{ backgroundColor: "#141414" }}
       >
         <div className="mr-auto cursor-pointer">

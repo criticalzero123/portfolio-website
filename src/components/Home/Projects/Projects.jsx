@@ -31,7 +31,7 @@ const Projects = () => {
         <p className="header mb-5" style={{ textAlign: "center" }}>
           <span style={{ color: "#95A7EF" }}>#1</span> <span>Projects</span>
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 justify-items-center">
           {repo &&
             repo.map((rep) => {
               return <ProjectCard project={rep} key={rep.id} />;

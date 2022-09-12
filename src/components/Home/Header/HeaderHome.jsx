@@ -13,7 +13,7 @@ const HeaderHome = () => {
   ];
   return (
     <div className="h-screen" id="header">
-      <div className="md:pt-48 md:pl-6 xl:pt-64 xl:pl-40 lg:pt-52 lg:pl-28  pt-24">
+      <div className="md:pt-48 md:pl-6 2xl:pt-64 xl:pl-40 lg:pt-52 lg:pl-28  pt-24">
         <p className="hi-p mb-3">
           <span className="code-text">{"<Hello />, "}</span>my name is
         </p>
@@ -64,7 +64,7 @@ const HeaderHome = () => {
             className="icon hover:-translate-y-1 transition duration-300 cursor-pointer mr-10"
             onClick={() =>
               window.open(
-                "mailto:caramonte159@gmail.com?subject=HELLO&body=Hi%20James%20Dylan%20Caramonte"
+                "mailto:caramonte159@gmail.com?subject=Hello&body=Hi%20James%20Dylan%20Caramonte"
               )
             }
           />
